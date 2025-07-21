@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=Application
-Name=chillerbot-ux
+Name=chillerbot-cc
 GenericName=Platform Game
-Exec=chillerbot-ux %u
-Icon=chillerbot-ux
+Exec=chillerbot-cc %u
+Icon=chillerbot-cc
 Terminal=false
 Keywords=game;multiplayer;
 Categories=Game;ArcadeGame;
-MimeType=x-scheme-handler/chillerbot-ux;
-Comment=Launch chillerbot-ux
+MimeType=x-scheme-handler/chillerbot-cc;
+Comment=Launch chillerbot-cc

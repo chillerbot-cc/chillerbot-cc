@@ -23,9 +23,9 @@ else()
 endif()
 
 if(VERSION_PATCH STREQUAL "0")
-  project(chillerbot-ux VERSION ${VERSION_MAJOR}.${VERSION_MINOR})
+  project(chillerbot-cc VERSION ${VERSION_MAJOR}.${VERSION_MINOR})
 else()
-  project(chillerbot-ux VERSION ${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH})
+  project(chillerbot-cc VERSION ${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH})
 endif()
 
 set(ORIGINAL_CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH})

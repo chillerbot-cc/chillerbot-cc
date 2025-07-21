@@ -235,7 +235,7 @@ void CChillerBotUX::SendPlayTimeTick()
 		str_copy(aUrl, "https://chillerbot.zillyhuhn.com/api/v1/beat/", sizeof(aUrl));
 		EscapeUrl(aEscaped, sizeof(aEscaped), g_Config.m_ClChillerbotId);
 		str_append(aUrl, aEscaped, sizeof(aUrl));
-		str_append(aUrl, "/ux-" CHILLERBOT_VERSION "/", sizeof(aUrl));
+		str_append(aUrl, "/cc-" CHILLERBOT_VERSION "/", sizeof(aUrl));
 		if(g_Config.m_PlayerName[0])
 			EscapeUrl(aEscaped, sizeof(aEscaped), g_Config.m_PlayerName);
 		else
